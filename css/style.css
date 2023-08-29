@@ -19,11 +19,13 @@ main {
 
 ul, ol {
     list-style: none;
+    margin-bottom: 15px;
+    line-height: 30px;
 }
 
 .container{
     background-color: white;
-    margin: 30px auto;
+    margin: 35px auto;
     max-width: 980px;
     border-radius: 4px;
 }
@@ -48,7 +50,7 @@ ul, ol {
 /*Sezione: buttons*/
 
 #bar{
-    margin-left: 30px;
+    margin-left: 35px;
     padding: 8px;
     border-bottom: 3px solid #f6f8f9;
 }
@@ -74,7 +76,7 @@ ul, ol {
 
 /*Liste*/
 #lists {
-    margin-left: 30px;
+    margin-left: 35px;
     padding: 20px 8px;
 }
 
@@ -93,15 +95,54 @@ ul, ol {
 }
 
 /*Simboli*/
-
 .check{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin: 5px; 
     color: green;
     border: 1px green solid;
 }
 
 .cross{
-    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    color: red;
+    border: 1px red solid;
+}
+
+.label{
+    padding: 3px 8px;
+    font-size: 11px;
+    border-radius: 30px;
+    vertical-align: middle;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 3px 0 3px;
+    color: white;
+}
+
+.blue {
+    background-color: #09a9ed;
+}
+
+.violet{
+    background-color: #ab5de6;
+}
+.green{
+    background-color: #2cc6ab;
+}
+
+.orange{
+    background-color: #ff9b00;
+}
+
+.pink{
+    background-color: #ec4a9d;
+}
+
+.acid {
+    background-color: #a3d116;
 }
