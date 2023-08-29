@@ -12,6 +12,9 @@ img{
     max-width: 100%;
 }
 
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
 main {
     background-color: #f6f8f9;
     padding: 15px;
@@ -25,7 +28,7 @@ ul, ol {
 
 .container{
     background-color: white;
-    margin: 35px auto;
+    margin: 40px auto;
     max-width: 980px;
     border-radius: 4px;
 }
@@ -37,7 +40,7 @@ ul, ol {
 }
 
 .title {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 35px;
     vertical-align: middle;
 }
@@ -50,7 +53,7 @@ ul, ol {
 /*Sezione: buttons*/
 
 #bar{
-    margin-left: 35px;
+    margin-left: 40px;
     padding: 8px;
     border-bottom: 3px solid #f6f8f9;
 }
@@ -76,13 +79,13 @@ ul, ol {
 
 /*Liste*/
 #lists {
-    margin-left: 35px;
+    margin-left: 40px;
     padding: 20px 8px;
 }
 
 .list-title {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 15px;
     color: #434851;
 }
 
