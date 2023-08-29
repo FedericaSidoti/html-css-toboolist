@@ -20,8 +20,8 @@ main {
 .container{
     background-color: white;
     margin: 30px auto;
-    padding: 50px;
     max-width: 980px;
+    border-radius: 4px;
 }
 
 /*Header*/
@@ -39,4 +39,31 @@ main {
 .header img {
     vertical-align: middle;
     padding: 5px 0;
+}
+
+/*Sezione: buttons*/
+
+#bar{
+    margin-left: 30px;
+    padding: 8px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.button {
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 6px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+.task {
+    background-color: #14aaf5;
+    color: white;
+}
+
+.section {
+    border-color: #c4cbd0;
+    color: #c4cbd0;
+    background-color: white;
 }
