@@ -1,0 +1,42 @@
+
+/*Regole di reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Regole generiche*/
+img{
+    max-width: 100%;
+}
+
+main {
+    background-color: #f6f8f9;
+    padding: 15px;
+}
+
+.container{
+    background-color: white;
+    margin: 30px auto;
+    padding: 50px;
+    max-width: 980px;
+}
+
+/*Header*/
+
+.header {
+    padding: 10px; 
+}
+
+.title {
+    font-weight: 900;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.header img {
+    vertical-align: middle;
+    padding: 5px 0;
+}
